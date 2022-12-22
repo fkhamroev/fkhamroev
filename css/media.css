@@ -1,0 +1,158 @@
+@media (max-width:992px) {
+    .nav {
+        padding: 3px;
+    }
+
+    .nav__logo {
+        width: 80px;
+        height: 60px;
+    }
+
+    .menu__link {
+        font-size: 15px;
+    }
+
+    .header__img {
+        height: 550px;
+    }
+
+    .header__tit {
+        font-size: 35px;
+    }
+
+    .header__tit_size {
+        font-size: 60px;
+    }
+
+    .header__desc {
+        font-size: 16px;
+    }
+
+    .header__btn {
+        font-size: 16px;
+        max-width: 120px;
+        padding: 8px;
+
+    }
+}
+
+
+@media (max-width:992px) {
+    .header__img {
+        height: 400px;
+    }
+
+    .header__tit {
+        font-size: 25px;
+    }
+
+    .header__tit_size {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .header__btn {
+        padding: 6px;
+    }
+
+    .main__tit {
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    .swiper__el {
+        height: 80px;
+        width: 80px;
+    }
+
+    .about__desc {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .swiper__span {
+        font-size: 16px;
+    }
+
+    .footer__link,
+    .footer__tit,
+    .footer__desc {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .swiper1 {
+        max-width: 700px;
+        height: 400px;
+    }
+
+    .swiper__img {
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+    }
+
+    .swiper__tit {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .swiper__desc {
+        font-size: 16px;
+        line-height: 18px;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .swiper1 {
+        max-width: 500px;
+        height: 200px;
+    }
+
+    .swiper__img {
+        width: 150px;
+        height: 150px;
+        padding: 5px;
+    }
+
+    .swiper__tit {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .swiper__desc {
+        font-size: 16px;
+        line-height: 18px;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    .main__tit {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .about__desc {
+        padding: 5px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .sert__link {
+        max-width: 150px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .swiper__el {
+        height: 50px;
+        width: 50px;
+    }
+}

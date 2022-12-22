@@ -1,5 +1,16 @@
 var swiper = new Swiper('.swiper', {
   slidesPerView: 5,
+  breakpoints: {// настройки для разных разрешений
+    1100: {
+      slidesPerView: 5,
+  },
+    991: {
+      slidesPerView: 4,
+  },
+    700: {
+        slidesPerView: 2,
+    },
+},
   autoplay: true,
   direction: getDirection(),
   // navigation: {
