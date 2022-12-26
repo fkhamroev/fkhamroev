@@ -224,7 +224,7 @@ html {
     top: 0;
     z-index: -1;
     animation: animation__orange 10s linear 1000ms infinite alternate forwards;
-    
+
 }
 
 
@@ -388,7 +388,7 @@ html {
 .swiper__span {
     color: white;
     font-size: 18px;
-    text-align: center ;
+    text-align: center;
     margin-bottom: 50px;
     margin-top: 10px;
 }
@@ -428,3 +428,13 @@ html {
 
 
 }
+
+.menu__burger,
+.btn__menu {
+    display: none;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    font-size: 18px;
+}
+

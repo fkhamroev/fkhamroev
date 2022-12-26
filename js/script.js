@@ -7,9 +7,13 @@ var swiper = new Swiper('.swiper', {
     991: {
       slidesPerView: 4,
   },
-    700: {
+    768: {
+        slidesPerView: 3,
+    },
+    200: {
         slidesPerView: 2,
     },
+    
 },
   autoplay: true,
   direction: getDirection(),
@@ -26,7 +30,7 @@ var swiper = new Swiper('.swiper', {
 
 function getDirection() {
   var windowWidth = window.innerWidth;
-  var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+  var direction = window.innerWidth <= 100 ? 'vertical' : 'horizontal';
 
   return direction;
 }
@@ -47,3 +51,9 @@ var mySwiper = new Swiper('.swiper1', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+// var btn__menu = document.getElementById('.btn__menu');
+// var menu =document.querySelector('.nav__menu');
+// btn__menu.onclick = function() {
+//   menu.style.display="block";
+// }
