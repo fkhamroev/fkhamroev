@@ -3,18 +3,18 @@ var swiper = new Swiper('.swiper', {
   breakpoints: {// настройки для разных разрешений
     1100: {
       slidesPerView: 5,
-  },
+    },
     991: {
       slidesPerView: 4,
-  },
+    },
     768: {
-        slidesPerView: 3,
+      slidesPerView: 3,
     },
     200: {
-        slidesPerView: 2,
+      slidesPerView: 2,
     },
-    
-},
+
+  },
   autoplay: true,
   direction: getDirection(),
   // navigation: {
@@ -52,8 +52,13 @@ var mySwiper = new Swiper('.swiper1', {
   },
 });
 
-// var btn__menu = document.getElementById('.btn__menu');
-// var menu =document.querySelector('.nav__menu');
-// btn__menu.onclick = function() {
-//   menu.style.display="block";
-// }
+var burger = document.querySelector('.btn__menu');
+var nav = document.querySelector('.nav__menu');
+
+burger.addEventListener("click", function ad() {
+  if (nav.style.visibility == "visible") {
+    nav.style.visibility = "hidden";
+  } else {
+    nav.style.visibility = "visible";
+  }
+})
